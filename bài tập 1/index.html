@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="card">
+                  <div class="card-header">
+                      Quản lí tuyển sinh
+                  </div>
+                  <div class="card-body">
+                      <div class="div">
+                          <div class="row">
+                              <div class="col-4">
+                                  <div class="form-group">  
+                                    <input type="number"
+                                      class="form-control" id="diemChuan" placeholder="Nhập điểm chuẩn">
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="form-group">
+                                    <select class="form-control" id="diemCongKhuVuc">
+                                      <option value="khuVuckhong">Khu vực không được ưu tiên</option>
+                                      <option value="khuVucA">Khu vực A</option>
+                                      <option value="khuVucB">Khu vực B</option>
+                                      <option value="khuVucC">Khu vực C</option>
+                                    </select>
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="form-group">
+                                    <select class="form-control" id="diemCongDoiTuong">
+                                      <option value="doiTuongkhong">Đối tượng không được ưu tiên</option>
+                                      <option value="doiTuongX">Đối tượng X</option>
+                                      <option value="doiTuongY">Đối tượng Y</option>
+                                      <option value="doiTuongZ">Đối tượng Z</option>
+                                    </select>
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="form-group">  
+                                    <input type="number"
+                                      class="form-control" id="diemMon1" placeholder="Nhập điểm môn thứ 1">
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="form-group">  
+                                    <input type="number"
+                                      class="form-control" id="diemMon2" placeholder="Nhập điểm môn thứ 2">
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="form-group">  
+                                    <input type="number"
+                                      class="form-control" id="diemMon3" placeholder="Nhập điểm môn thứ 3">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <button id="btnResult" class="alert alert-success">Kết quả</button>
+                  </div>
+                  <div id="showResult" class="card-footer text-muted">
+                      Kết quả là:
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
